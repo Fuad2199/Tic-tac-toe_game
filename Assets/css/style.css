@@ -6,13 +6,13 @@ body {
     background-color: lightblue;
     text-align: center;
 }
-.container {
+.game__container {
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.game {
+.game__field {
     height: 60vmin;
     width: 60vmin;
     display: flex;
@@ -20,7 +20,7 @@ body {
     gap: 1.5vmin;
     justify-content: center;
 }
-.box {
+.game__cell {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
@@ -30,7 +30,7 @@ body {
     color: red;
     background-color: yellow;
 }
-#reset {
+#reset__game {
     padding: 1rem;
     font-size: 1.25rem;
     background: #191913;
@@ -38,10 +38,10 @@ body {
     border-radius: 1rem;
     border: none;
 }
-.box:hover {
+.gane__cell:hover {
     background-color: chocolate;
 }
-#new-btn {
+#new__btn {
     padding: 1rem;
     font-size: 1.25rem;
     background: #191913;
@@ -49,12 +49,12 @@ body {
     border-radius: 1rem;
     border: none;
 }
-#msg {
+#message__winner {
     font-size: 8vmin;
 }
-.msg-container {
+.message__container {
     height: 30vmin;
 }
-.hide {
+.newgame__btn--hide {
     display: none;
 }

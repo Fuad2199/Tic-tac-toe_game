@@ -7,26 +7,29 @@
     <title>Tic-tac-toe</title>
 </head>
 <body>
-    <div class="msg-container hide">
-        <p id="msg">Winner</p>
-        <button id="new-btn">New Game</button>
+    <div class="message__container newgame__btn--hide">
+        <p id="message__winner">Winner</p>
+        <button id="new__btn">New Game</button>
     </div>
     <main>
+        <!-- Game Header -->
         <h1>Tic Tac Toe</h1>
-        <div class="container">
-            <div class="game">
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
+        <div class="game__container">
+            <!-- Field of game cells -->
+            <div class="game__field">
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
+                <button class="game__cell"></button>
             </div>
         </div>
-        <button id="reset">
+        <!-- Game reset button -->
+        <button id="reset__game">
             Reset Game
         </button>
     </main>
