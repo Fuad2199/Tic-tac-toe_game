@@ -20,7 +20,7 @@ body {
     gap: 1.5vmin;
     justify-content: center;
 }
-.game__cell {
+.cell {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
@@ -38,7 +38,7 @@ body {
     border-radius: 1rem;
     border: none;
 }
-.gane__cell:hover {
+.cell:hover {
     background-color: chocolate;
 }
 #new__btn {
@@ -50,7 +50,9 @@ body {
     border: none;
 }
 #message__winner {
-    font-size: 8vmin;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
 }
 .message__container {
     height: 30vmin;
